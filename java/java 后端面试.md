@@ -4,7 +4,20 @@
 
 https://blog.csdn.net/qq_29676623/article/details/85530078
 
+## 数据结构
 
+#### 集合框架
+
+![image-20210123112555324](/Users/a1466055840/Library/Application Support/typora-user-images/image-20210123112555324.png)
+
+1. Collection类继承了Interable接口
+2. Collection类的三个子类：List，Set，Queue
+3. Vector是**线程安全**，支持**同步操作**的，而ArrayList不是
+4. ArrayList和LinkedList最大的区别是链表实现和数组实现
+5. Set是无序的
+6. Stack是Vector的子类，支持empty(), peek(), pop(), push()方法
+7. 优先队列的实现一般用堆的具体实现，且要传入类实现Comparable接口或者传入compare方法做诶参数
+8. Queue的一个实现是LinkedList，方法包括add(), poll(), peek()
 
 ## JAVA基础
 
